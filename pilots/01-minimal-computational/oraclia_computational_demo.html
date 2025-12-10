@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Oraclia · Symbolic Self-Insight Prototype</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;
+      background: radial-gradient(circle at top, #ffffff 0, #f3f3f3 60%);
+      margin: 0;
+      padding: 40px 16px;
+      color: #222;
+      display: flex;
+      justify-content: center;
+    }
+    .wrapper {
+      max-width: 720px;
+      width: 100%;
+      background: #fff;
+      border-radius: 18px;
+      box-shadow: 0 14px 40px rgba(0,0,0,0.06);
+      padding: 32px 24px 28px;
+      box-sizing: border-box;
+    }
+    .symbol-main {
+      font-size: 72px;
+      text-align: center;
+      margin-bottom: 16px;
+      animation: breathe 4s ease-in-out infinite alternate;
+    }
+    @keyframes breathe {
+      from { transform: scale(1); opacity: 0.85; }
+      to   { transform: scale(1.06); opacity: 1;   }
+    }
+    .title {
+      text-align: center;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 4px;
+    }
+    .subtitle {
+      text-align: center;
+      font-size: 20px;
+      font-weight: 500;
+      margin-bottom: 10px;
+    }
+    .tagline {
+      text-align: center;
+      font-size: 14px;
+      color: #777;
+      margin-bottom: 24px;
+      line-height: 1.6;
+    }
+    textarea {
+      width: 100%;
+      min-height: 120px;
+      border-radius: 12px;
+      border: 1px solid #ddd;
+      padding: 12px 14px;
+      font-size: 15px;
+      box-sizing: border-box;
+      resize: vertical;
+      outline: none;
+      line-height: 1.5;
+    }
+    textarea:focus {
+      border-color: #111;
+    }
+    .hint {
+      font-size: 12px;
+      color: #777;
+      margin-top: 6px;
+      margin-bottom: 18px;
+    }
+    .btn-row {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 24px;
+    }
+    button {
+      padding: 10px 26px;
+      border-radius: 999px;
+      border: 1px solid #111;
+      background: #111;
+      color: #fff;
+      font-size: 13px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: background 0.2s ease, color 0.2s ease, transform 0.1s ease;
+    }
+    button:hover {
+      background: #fff;
+      color: #111;
+      transform: translateY(-1px);
+    }
+    .output {
+      border-top: 1px solid #eee;
+      padding-top: 20px;
+    }
+    .output-heading {
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: #777;
+      margin-bottom: 10px;
+      text-align: left;
+    }
+    .output-symbol {
+      font-size: 40px;
+      margin-bottom: 8px;
+    }
+    .output-label {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: #999;
+      margin-bottom: 2px;
+    }
+    .output-text {
+      font-size: 14px;
+      color: #444;
+      line-height: 1.6;
+      margin-bottom: 14px;
+    }
+    .footer-note {
+      margin-top: 22px;
+      font-size: 11px;
+      color: #999;
+      line-height: 1.5;
+      text-align: left;
+    }
+    .symbols-strip {
+      font-size: 18px;
+      letter-spacing: 0.22em;
+      text-align: center;
+      margin-top: 18px;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+
+<div class="wrapper">
+  <div class="symbol-main">◉</div>
+  <div class="title">Oraclia · Computational Layer</div>
+  <div class="subtitle">Symbolic Self-Insight Prototype</div>
+  <div class="tagline">
+    This demo uses a fixed set of structural symbols to read internal movements in a situation.  
+    It does not interpret emotions, it does not predict, and it does not replace professional analysis.
+  </div>
+
+  <label for="input" class="output-label">Describe your current internal movement</label>
+  <textarea id="input" placeholder="Example: I feel stuck between two options and I'm not sure what to do next."></textarea>
+  <div class="hint">
+    The system looks for structural signals (uncertainty, decision point, limit, movement, change, etc.) using simple rules.
+  </div>
+
+  <div class="btn-row">
+    <button id="analyzeBtn">Analyze with Oraclia</button>
+  </div>
+
+  <div class="output" id="output">
+    <div class="output-heading">Current structural read</div>
+    <div class="output-symbol" id="outSymbol">◌</div>
+
+    <div class="output-label">Meaning</div>
+    <div class="output-text" id="outMeaning">
+      No structural signal detected yet.  
+      Write a short description of what is moving, blocked or changing.
+    </div>
+
+    <div class="output-label">Structural suggestion</div>
+    <div class="output-text" id="outSuggestion">
+      Use simple language: “I feel…”, “I’m trying to…”, “I don’t know if…”.  
+      The system will respond only with structural guidance, not personal judgement.
+    </div>
+  </div>
+
+  <div class="footer-note">
+    This prototype works with a closed set of 21 Unicode symbols defined by Oraclia.  
+    Here only a subset is used for demonstration purposes: ?, Y, ⊘, ◉, ∆, †, →, ≡, ◌.
+  </div>
+
+  <div class="symbols-strip">
+    ∞ † ◉ ≋ ✧ ▭ ☲ ✛ ∆ ≈ ⇡ → ⊘ Y ≡ ⇤ () 〰 ? ÷ ○
+  </div>
+</div>
+
+<script>
+  // Oraclia · Symbolic Self-Insight Engine (Web Prototype)
+  // ------------------------------------------------------
+  // This is a minimal rule-based layer: it scans text and maps it to
+  // one structural symbol + a neutral suggestion.
+
+  const symbolMap = [
+    {
+      key: "uncertainty",
+      symbol: "?",
+      meaning: "Indeterminacy — the field lacks clear criteria.",
+      suggestion: "Stay with the question. Do not force direction yet.",
+      patterns: [
+        /not sure/i,
+        /don't know/i,
+        /\bdunno\b/i,
+        /\bunsure\b/i,
+        /\bconfused\b/i,
+        /\buncertain\b/i,
+        /\bno idea\b/i
+      ]
+    },
+    {
+      key: "decision_point",
+      symbol: "Y",
+      meaning: "Bifurcation — a decision between multiple paths.",
+      suggestion: "Name the options explicitly and define one simple criterion.",
+      patterns: [
+        /\bdecide\b/i,
+        /\bdecision\b/i,
+        /\bchoice\b/i,
+        /\bchoose\b/i,
+        /\boption\b/i
+      ]
+    },
+    {
+      key: "tension",
+      symbol: "⊘",
+      meaning: "Interruption — movement cannot continue as it is.",
+      suggestion: "Pause the movement. Acknowledge the block before pushing further.",
+      patterns: [
+        /\bstuck\b/i,
+        /\bblocked\b/i,
+        /\bblock\b/i,
+        /\bpressure\b/i,
+        /\boverwhelmed\b/i,
+        /\bno way\b/i
+      ]
+    },
+    {
+      key: "focus",
+      symbol: "◉",
+      meaning: "Focus — attention narrows onto a relevant element.",
+      suggestion: "Observe without trying to solve. Let the key point become clear.",
+      patterns: [
+        /\bneed to understand\b/i,
+        /\btrying to see\b/i,
+        /\btrying to figure\b/i,
+        /\bclarify\b/i,
+        /\bfocus\b/i,
+        /\bpay attention\b/i
+      ]
+    },
+    {
+      key: "change",
+      symbol: "∆",
+      meaning: "Transformation — the configuration is altering.",
+      suggestion: "Allow the transition to unfold before drawing conclusions.",
+      patterns: [
+        /\bchanging\b/i,
+        /\bchange\b/i,
+        /\bshift\b/i,
+        /\btransform\b/i,
+        /\bturning point\b/i,
+        /\bthings are different\b/i
+      ]
+    },
+    {
+      key: "limit",
+      symbol: "†",
+      meaning: "Limit — a boundary becomes visible.",
+      suggestion: "Locate the exact point where the limit appears.",
+      patterns: [
+        /\bcan't\b/i,
+        /\bcannot\b/i,
+        /\bimpossible\b/i,
+        /\brestriction\b/i,
+        /\blimit\b/i,
+        /\bno longer\b/i
+      ]
+    },
+    {
+      key: "movement",
+      symbol: "→",
+      meaning: "Direction — initial operative movement.",
+      suggestion: "Take one concrete step, without forcing the outcome.",
+      patterns: [
+        /\bstart\b/i,
+        /\bget started\b/i,
+        /\bmove forward\b/i,
+        /\bmove on\b/i,
+        /\bprogress\b/i,
+        /\btake action\b/i
+      ]
+    },
+    {
+      key: "integration",
+      symbol: "≡",
+      meaning: "Integration — elements begin to fit into structure.",
+      suggestion: "Stabilise what is working before opening new fronts.",
+      patterns: [
+        /\bfeels coherent\b/i,
+        /\bthings align\b/i,
+        /\bcomes together\b/i,
+        /\bmake sense now\b/i,
+        /\bintegrated\b/i
+      ]
+    }
+  ];
+
+  function oracliaRead(text) {
+    const cleaned = (text || "").toLowerCase();
+
+    for (const rule of symbolMap) {
+      for (const pattern of rule.patterns) {
+        if (pattern.test(cleaned)) {
+          return {
+            symbol: rule.symbol,
+            meaning: rule.meaning,
+            suggestion: rule.suggestion
+          };
+        }
+      }
+    }
+
+    // Default: no clear structural signal
+    return {
+      symbol: "◌",
+      meaning: "No clear structural signal detected.",
+      suggestion: "Describe what feels open, blocked, changing or undecided in one or two sentences."
+    };
+  }
+
+  const inputEl = document.getElementById("input");
+  const btn = document.getElementById("analyzeBtn");
+  const outSymbol = document.getElementById("outSymbol");
+  const outMeaning = document.getElementById("outMeaning");
+  const outSuggestion = document.getElementById("outSuggestion");
+
+  btn.addEventListener("click", () => {
+    const text = inputEl.value.trim();
+    const result = oracliaRead(text);
+
+    outSymbol.textContent = result.symbol;
+    outMeaning.textContent = result.meaning;
+    outSuggestion.textContent = result.suggestion;
+  });
+</script>
+
+</body>
+</html>
