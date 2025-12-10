@@ -1,0 +1,108 @@
+Oraclia · Core System
+
+Minimal prototype of the Oraclia symbolic language.
+This version defines the essential architecture of the system: the conceptual core, the basic functions of the symbols, and the rules that allow their structural use.
+
+1. Conceptual Core
+
+Oraclia is an structural, non-interpretative symbolic language.
+The symbols do not carry psychological, spiritual, or cultural meaning: they operate purely as formal units that describe movements within a process.
+
+The foundational principles are:
+
+each symbol = one structural function
+
+the full set = 21 fixed, non-expandable units
+
+combinations = process sequences (not narratives, not mystical interpretations)
+
+language use = reading states and transitions, not meanings
+
+2. Symbol Functions (minimal definition)
+
+This prototype includes only the minimal functional definitions required to establish the system:
+
+∞ → open field, potential
+
+† → reference point / orientation
+
+◉ → focus
+
+≋ → return
+
+✧ → activation
+
+▭ → limit
+
+☲ → contrast
+
+✛ → material / concrete
+
+∆ → change
+
+≈ → adjustment
+
+⇡ → ascent / progress
+
+→ → direction
+
+⊘ → interruption
+
+Y → bifurcation
+
+≡ → synthesis
+
+⇤ → withdrawal
+
+() → literal data
+
+〰 → cycle
+
+? → indeterminacy
+
+÷ → closure
+
+○ → pause
+
+These definitions are sufficient to identify the system’s functions without exposing the full model.
+
+3. Formal Architecture of the Language
+
+Closed system: only 21 stable symbols.
+
+Defined functions: each symbol operates as a state or transition.
+
+Controlled combination: sequences describe movement, not meaning.
+
+Interpretive neutrality: the language does not perform predictions or personal readings.
+
+Interoperability: symbols are Unicode, processable by both humans and AI systems.
+
+This structure allows Oraclia to represent processes in personal, organizational, or computational contexts.
+
+4. Scope of Use
+
+The system can be used to:
+
+describe phases of a process
+
+identify structural transitions
+
+represent internal movements of a situation
+
+support clear communication between humans and AI systems
+
+The system is not used for:
+
+diagnostics
+
+predictions
+
+emotional interpretation
+
+esoteric or symbolic readings
+
+5. Prototype Status
+
+This document constitutes the minimal verifiable prototype of the Oraclia system.
+Its publication establishes precedence and authorship of the conceptual model.
