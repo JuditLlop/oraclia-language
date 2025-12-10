@@ -105,4 +105,4 @@ contingut esotèric
 5. Estat del prototip
 
 Aquest document constitueix el prototip mínim verificable del sistema Oraclia.
-La seva publicació estableix precedència i autoria del model conceptua
+La seva publicació estableix precedència i autoria del model conceptual
