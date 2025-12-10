@@ -1,46 +1,46 @@
 Copyright © 2025 Judit Llop  
-All Rights Reserved.
-
-This work —including the Oraclia symbolic language, its structure,
-the set of symbols, their assigned functions, and any related documentation—
-is protected under copyright law.
-
-NO permission is granted, unless prior written consent from the author:
-
-– to copy, distribute, or reproduce this material in whole or in part  
-– to modify, adapt, or create derivative works  
-– to use the system, its symbols, or its conceptual architecture  
-– to integrate Oraclia into products, projects, AI models, or digital tools  
-– to make commercial or non-commercial use of the system in any form
-
-The only permitted use is personal reading of this document as informational reference.
-
-Any other use constitutes copyright infringement and requires
-explicit authorization from the author.
-
-Oraclia is a proprietary conceptual system.  
-Any extension, implementation, or application requires formal permission.
-
-Copyright © 2025 Judit Llop  
 Tots els drets reservats.
 
-Aquesta obra —incloent-hi el llenguatge simbòlic d’Oraclia, la seva estructura,
-els símbols, les funcions assignades i qualsevol documentació associada—
-està protegida per drets d’autor.
+Aquesta obra —incloent-hi el llenguatge simbòlic d’Oraclia, l’arquitectura del sistema,
+els 21 símbols, les seves funcions estructurals, la documentació, les definicions
+formals i qualsevol altre material associat— està protegida per drets d’autor.
 
-NO es permet, sense autorització prèvia i per escrit de l’autora:
+✔ ÚS PERMÈS
+Únicament es permet:
+– la lectura personal i informativa del contingut d’aquest repositori  
+– la consulta del model conceptual amb finalitats d’estudi o recerca no aplicades  
 
-– copiar, distribuir o reproduir el contingut total o parcialment  
-– modificar, adaptar o crear obres derivades  
-– utilitzar el sistema, els símbols o l’arquitectura conceptual  
-– integrar Oraclia en productes, projectes, IA o eines digitals  
-– fer-ne ús comercial o no comercial en cap forma
+Aquests usos NO autoritzen a implementar, copiar, integrar ni adaptar el sistema.
 
-L’únic ús permès és la lectura personal d’aquest document com a referència informativa.
+✘ ÚS NO PERMÈS SENSE AUTORITZACIÓ EXPRESSA I PER ESCRIT DE L’AUTORA
 
-Qualsevol altre ús constitueix una infracció de drets d’autor i requerirà
-autorització explícita de l’autora.
+No es permet, en cap cas:
 
-Oraclia és un sistema conceptual propietari.  
-Tota extensió, implementació o aplicació requereix permís formal.
+– copiar o redistribuir totalment o parcialment aquest material  
+– modificar, adaptar, traduir o crear versions derivades del sistema  
+– utilitzar Oraclia o qualsevol dels seus símbols en productes, serveis,
+  projectes, aplicacions, models d’IA, eines digitals o processos comercials  
+– integrar el llenguatge o la seva lògica en sistemes automàtics  
+– fer ús comercial o no comercial del model en cap forma  
+– utilitzar el sistema com a eina predictiva, psicològica,
+  espiritual o d’interpretació personal  
+
+Qualsevol ús no autoritzat serà considerat una infracció dels drets d’autor.
+
+🔒 NATURA DEL SISTEMA
+
+Oraclia és un sistema conceptual **proprietari**.  
+Les 21 unitats simbòliques, la seva arquitectura estructural i la lògica de combinació
+constitueixen una obra protegida i no poden ser ampliades, alterades,
+reinterpretades ni reutilitzades sense permís explícit.
+
+📬 SOL·LICITUDS D’ÚS
+
+Per demanar autorització per a qualsevol aplicació,
+contacteu amb l’autora.
+
+Aquesta llicència garanteix:
+– la preservació del sistema  
+– el reconeixement de l’autoria  
+– el control total sobre l’ús, implementació i integració d’Oraclia  
 
