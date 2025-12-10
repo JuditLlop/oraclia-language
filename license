@@ -1,22 +1,46 @@
-Copyright (c) 2025 Judit Lop  
+Copyright © 2025 Judit Llop  
 All Rights Reserved.
 
-Tots els continguts d’aquest repositori —incloent-hi el llenguatge simbòlic
-d’Oraclia, la definició del nucli conceptual, les funcions dels símbols, 
-la seva arquitectura formal i qualsevol text, document o estructura derivada— 
-estan protegits per drets d’autor.
+This work —including the Oraclia symbolic language, its structure,
+the set of symbols, their assigned functions, and any related documentation—
+is protected under copyright law.
 
-No es permet:
+NO permission is granted, unless prior written consent from the author:
 
-– copiar, reproduir o distribuir aquest material  
-– modificar-lo, adaptar-lo o crear-hi obres derivades  
-– utilitzar-lo en projectes personals, professionals o educatius  
-– integrar-lo, totalment o parcialment, en sistemes d’intel·ligència artificial  
-– utilitzar-lo amb finalitats comercials o no comercials  
+– to copy, distribute, or reproduce this material in whole or in part  
+– to modify, adapt, or create derivative works  
+– to use the system, its symbols, or its conceptual architecture  
+– to integrate Oraclia into products, projects, AI models, or digital tools  
+– to make commercial or non-commercial use of the system in any form
 
-sense autorització prèvia, explícita i per escrit de l’autora.
+The only permitted use is personal reading of this document as informational reference.
 
-Queda prohibida qualsevol forma d’ús no autoritzat.
+Any other use constitutes copyright infringement and requires
+explicit authorization from the author.
 
-Oraclia és una creació original i propietat exclusiva de Judit Lop.
+Oraclia is a proprietary conceptual system.  
+Any extension, implementation, or application requires formal permission.
+
+Copyright © 2025 Judit Llop  
+Tots els drets reservats.
+
+Aquesta obra —incloent-hi el llenguatge simbòlic d’Oraclia, la seva estructura,
+els símbols, les funcions assignades i qualsevol documentació associada—
+està protegida per drets d’autor.
+
+NO es permet, sense autorització prèvia i per escrit de l’autora:
+
+– copiar, distribuir o reproduir el contingut total o parcialment  
+– modificar, adaptar o crear obres derivades  
+– utilitzar el sistema, els símbols o l’arquitectura conceptual  
+– integrar Oraclia en productes, projectes, IA o eines digitals  
+– fer-ne ús comercial o no comercial en cap forma
+
+L’únic ús permès és la lectura personal d’aquest document com a referència informativa.
+
+Qualsevol altre ús constitueix una infracció de drets d’autor i requerirà
+autorització explícita de l’autora.
+
+Oraclia és un sistema conceptual propietari.  
+Tota extensió, implementació o aplicació requereix permís formal.
 
