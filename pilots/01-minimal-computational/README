@@ -1,0 +1,117 @@
+Oraclia Computational · Minimal Prototype
+
+This repository contains the first computational prototype of Oraclia:
+a symbolic process-language designed to detect and structure internal dynamics (doubt, direction, tension, closure, etc.) using a fixed set of 21 formal symbols.
+
+This prototype does not implement Oraclia’s full logic.
+It demonstrates a minimal and verifiable concept:
+
+A short text → symbolic interpretation → structural output
+using Oraclia’s fixed symbolic operators.
+
+This makes it possible to test how Oraclia can act as an independent symbolic layer that could operate under any AI system.
+
+1. Purpose of the Prototype
+
+This pilot shows that Oraclia can function as a computational symbolic layer:
+
+It takes a user input (a sentence about a situation, emotion, or process).
+
+It maps the text to one or more symbolic process-states.
+
+It returns a structured interpretation, not emotional, not predictive, and not psychological.
+
+The goal is to demonstrate:
+
+symbolic detection
+
+structural mapping
+
+minimal process reasoning
+
+the potential for self-reflection, clarity, and decision-making support
+
+This is not a traditional chatbot.
+It is a symbolic operator, not an analytic conversational model.
+
+2. What This Prototype Includes
+
+✔ A minimal HTML + JavaScript demo
+✔ A mapping between keywords and Oraclia's symbols
+✔ A simple interpreter that returns a structural reading
+✔ A working example of symbolic detection
+
+This is only a proof of concept.
+No logic or interpretation beyond the symbols is included.
+
+3. How to Run the Demo
+Option A — Open Locally
+
+Download the file oraclia_computational_demo.html
+
+Double-click to open it in any browser (Chrome, Safari, Firefox)
+
+Type a sentence into the field
+
+The symbolic output will appear immediately
+
+No installation is required.
+
+Option B — Run on GitHub Pages (Recommended)
+
+If you want this prototype to be accessible publicly:
+
+Go to your repository
+
+Open Settings → Pages
+
+Under "Build and Deployment":
+
+Source: Deploy from branch
+
+Branch: main
+
+Folder: /root (or wherever the HTML file is)
+
+Save
+
+GitHub will generate a public URL where the demo appears as a real webpage.
+
+4. File Structure
+/oraclia-computational/
+│
+├── oraclia_computational_demo.html   # interactive demo
+├── LICENSE                           # proprietary license
+└── README.md                         # documentation (this file)
+
+
+More components will be added as the system grows (symbol tables, operators, mapping rules, etc.).
+
+5. Limitations of This Prototype
+
+This demo is intentionally minimal:
+
+no real language model
+
+no advanced symbolic inference
+
+no compound-sequence reasoning
+
+no contextual weighting
+
+no emotional interpretation
+
+It only shows:
+
+“Given a text input, Oraclia can operate as a symbolic classifier.”
+
+This is the first computational evidence that Oraclia can function below any AI system as a symbolic, structural layer.
+
+6. Legal Notice
+
+The symbolic language, the 21 symbols, their functions, the architecture of the system, the structural rules, and all conceptual material are copyrighted and proprietary to Judit Llop.
+
+The prototype is for observation and study only.
+It may not be copied, implemented, extended, integrated, or used in any system without written permission.
+
+See the LICENSE file for details.
