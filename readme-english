@@ -1,0 +1,16 @@
+oraclia-language
+
+Minimal Prototype of the Oraclia Symbolic Language
+
+Oraclia · System Core
+
+This repository contains the minimal prototype of the Oraclia symbolic language:
+a system of 21 Unicode symbols defined as structural units for describing processes.
+
+Includes:
+
+definition of the core conceptual framework
+
+functions of the symbols
+
+formal structure of the language
