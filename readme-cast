@@ -1,0 +1,13 @@
+Prototipo mínimo del lenguaje simbólico de Oraclia
+Oraclia · Núcleo del Sistema
+
+Este repositorio contiene el prototipo mínimo del lenguaje simbólico de Oraclia:
+un sistema de 21 símbolos Unicode, definidos como unidades estructurales para describir procesos.
+
+Incluye:
+
+definición del núcleo conceptual,
+
+funciones básicas de los símbolos,
+
+estructura formal del lenguaje.
