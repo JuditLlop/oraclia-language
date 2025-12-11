@@ -1,0 +1,115 @@
+Oraclia · Núcleo del Sistema
+
+Prototipo mínimo del lenguaje simbólico de Oraclia.
+Esta versión define la arquitectura esencial del sistema: el núcleo conceptual, las funciones básicas de los símbolos y las reglas que permiten su uso estructural.
+
+Núcleo conceptual
+
+Oraclia es un lenguaje simbólico estructural, no interpretativo.
+Los símbolos no tienen significado psicológico, espiritual ni cultural: actúan como unidades formales que describen movimientos dentro de un proceso.
+
+Los principios básicos del núcleo son:
+
+cada símbolo = una función estructural,
+
+el conjunto completo = 21 unidades fijas y no ampliables,
+
+las combinaciones = secuencias de proceso (no narrativas, no místicas),
+
+el uso del lenguaje = lectura de estados y transiciones.
+
+Función de los símbolos (descripción mínima)
+
+Este prototipo incluye únicamente la definición funcional mínima necesaria para establecer el sistema:
+
+∞ → campo abierto, potencial
+
+† → punto de referencia / orientación
+
+◉ → foco
+
+≋ → retorno
+
+✧ → activación
+
+▭ → límite
+
+☲ → contraste
+
+✛ → material / concreto
+
+∆ → cambio
+
+≈ → ajuste
+
+⇡ → ascenso / progreso
+
+→ → dirección
+
+⊘ → interrupción
+
+Y → bifurcación
+
+≡ → síntesis
+
+⇤ → retirada
+
+() → dato literal
+
+〰 → ciclo
+
+? → indeterminación
+
+÷ → cierre
+
+○ → pausa
+
+Estas definiciones son suficientes para identificar las funciones del sistema sin desplegar el modelo completo.
+
+Arquitectura formal del lenguaje
+
+Sistema cerrado: solo 21 símbolos estables.
+
+Funciones definidas: cada símbolo opera como estado o transición.
+
+Combinación limitada: las secuencias describen movimiento, no significado.
+
+Neutralidad interpretativa: el lenguaje no realiza predicciones ni lecturas personales.
+
+Interoperabilidad: los símbolos son Unicode, procesables tanto por humanos como por sistemas de IA.
+
+Esta estructura permite usar Oraclia para representar procesos en ámbitos personales, organizativos o computacionales.
+
+Ámbito de uso
+
+El sistema puede utilizarse para:
+
+describir fases de un proceso,
+
+identificar transiciones estructurales,
+
+representar movimientos internos de una situación,
+
+facilitar la lectura y la comunicación entre personas y sistemas de IA.
+
+No se utiliza para:
+
+diagnósticos,
+
+predicciones,
+
+interpretaciones emocionales,
+
+contenido esotérico.
+
+Estado del prototipo
+
+Este documento constituye el prototipo mínimo verificable del sistema Oraclia.
+Su publicación establece precedencia y autoría del modelo conceptual.
+
+Si quieres, ahora te preparo:
+
+✅ versión en inglés
+✅ versión para la web (HTML limpio)
+✅ versión ampliada con tono más académico
+Solo dime cuál quieres.
