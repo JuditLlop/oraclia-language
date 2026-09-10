@@ -1,13 +1,17 @@
-Prototipo mínimo del lenguaje simbólico de Oraclia
-Oraclia · Núcleo del Sistema
+# oraclia-language
 
-Este repositorio contiene el prototipo mínimo del lenguaje simbólico de Oraclia:
-un sistema de 21 símbolos Unicode, definidos como unidades estructurales para describir procesos.
+## Oraclia · lenguaje simbólico en desarrollo
 
-Incluye:
+Oraclia es un prototipo de lenguaje simbólico y sistema de lectura relacional en desarrollo.
 
-definición del núcleo conceptual,
+Trabaja con un alfabeto de 21 símbolos entendidos como operadores, no como palabras con significados fijos.
 
-funciones básicas de los símbolos,
+El proyecto explora cómo una situación o una conversación puede ser leída a través de campos simbólicos, relaciones, formas y transformaciones, y cómo estas configuraciones pueden cambiar a lo largo del tiempo.
 
-estructura formal del lenguaje.
+Los símbolos no pretenden definir ni interpretar de forma fija a la persona. La lectura es provisional y puede ser corregida o desmentida.
+
+Cuando no existe suficiente estructura para sostener una configuración simbólica, Oraclia puede conservar esa indeterminación en lugar de forzar una interpretación.
+
+Actualmente el proyecto se encuentra en fase de prototipo y experimentación.
+
+∞ · † · ◉ · ⇡ · ▭ · ○ · → · 〰 · ✧ · ? · ⊘ · ☲ · ∆ · ÷ · ≈ · ✛ · ⇤ · ≋ · () · Y · ≡
