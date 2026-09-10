@@ -1,16 +1,17 @@
-oraclia-language
+# oraclia-language
 
-Minimal Prototype of the Oraclia Symbolic Language
+## Oraclia · symbolic language in development
 
-Oraclia · System Core
+Oraclia is an experimental symbolic language and relational reading system currently in development.
 
-This repository contains the minimal prototype of the Oraclia symbolic language:
-a system of 21 Unicode symbols defined as structural units for describing processes.
+It works with an alphabet of 21 symbols understood as operators rather than words with fixed meanings.
 
-Includes:
+The project explores how a situation or conversation can be read through symbolic fields, relations, forms and transformations, and how these configurations may change over time.
 
-definition of the core conceptual framework
+The symbols are not intended to define a person or impose a fixed interpretation. Every reading is provisional and can be corrected or rejected.
 
-functions of the symbols
+When there is not enough structure to support a symbolic configuration, Oraclia can preserve that indeterminacy instead of forcing an interpretation.
 
-formal structure of the language
+The project is currently in a prototyping and experimental phase.
+
+∞ · † · ◉ · ⇡ · ▭ · ○ · → · 〰 · ✧ · ? · ⊘ · ☲ · ∆ · ÷ · ≈ · ✛ · ⇤ · ≋ · () · Y · ≡
