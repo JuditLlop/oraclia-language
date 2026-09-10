@@ -1,66 +1,74 @@
-Licencia de Uso — Oraclia
+# Licencia de uso — Oraclia
 
-Copyright © 2025 Judit Llop
+Copyright © 2025 Judit Llop  
 Todos los derechos reservados.
 
-Esta obra —incluyendo el lenguaje simbólico de Oraclia, la arquitectura del sistema,
-los 21 símbolos, sus funciones estructurales, la documentación, las definiciones formales
-y cualquier otro material asociado— está protegida por derechos de autor.
+Oraclia es un proyecto conceptual y tecnológico privado y propietario, actualmente en desarrollo.
 
-✔ USO PERMITIDO
+Los textos, la documentación, el código, las definiciones, la organización original del sistema, su arquitectura expresada y el resto de materiales asociados al proyecto están protegidos por derechos de autor y por la legislación aplicable.
+
+El acceso al repositorio o a cualquier material de Oraclia no implica la concesión de una licencia de uso, implementación, adaptación o reutilización.
+
+## Consulta del proyecto
+
+El acceso a los materiales de Oraclia se concede únicamente a personas autorizadas.
+
+Las personas, equipos, instituciones u organizaciones interesadas en conocer el proyecto pueden solicitar una consulta con fines:
+
+- informativos;
+- académicos;
+- de investigación;
+- de evaluación;
+- o de posible colaboración.
+
+Cualquier consulta o acceso se limita a las condiciones acordadas en cada caso.
+
+La consulta del proyecto no autoriza, por sí misma, a copiar, implementar, adaptar, redistribuir, reproducir ni integrar Oraclia o sus materiales en otros sistemas.
+
+## Uso permitido
 
 Únicamente se permite:
 
-la lectura personal y no comercial del contenido de este repositorio,
+- consultar los materiales cuando se haya autorizado el acceso;
+- estudiarlos dentro de los límites acordados;
+- citar fragmentos breves con la atribución adecuada, cuando la legislación aplicable lo permita y cuando las condiciones de acceso no lo restrinjan.
 
-la consulta del modelo conceptual con fines de estudio o investigación no aplicada.
+Estos usos no conceden ningún derecho sobre el sistema ni sobre sus materiales protegidos.
 
-Estos usos NO autorizan a implementar, copiar, integrar ni adaptar el sistema.
+## Uso no autorizado sin permiso expreso
 
-✘ USO NO PERMITIDO
+Sin autorización previa y por escrito de la autora, no se concede permiso para:
 
-(Prohibido sin autorización expresa y por escrito de la autora)
+- copiar o redistribuir de forma sustancial los materiales del proyecto;
+- modificar, adaptar o crear versiones derivadas de la documentación, el código o la arquitectura publicada o compartida;
+- incorporar materiales propios de Oraclia en productos, servicios, aplicaciones, modelos de IA o sistemas automáticos;
+- presentar una implementación derivada como Oraclia o como una versión autorizada del proyecto;
+- utilizar comercialmente los materiales protegidos;
+- reutilizar la documentación, el código o la arquitectura como base directa de un sistema derivado;
+- compartir con terceros materiales a los que se haya tenido acceso de forma privada, salvo autorización expresa.
 
-No se permite, en ningún caso:
+## Sobre los símbolos y las ideas
 
-copiar o redistribuir total o parcialmente este material,
+Oraclia utiliza un alfabeto de 21 símbolos Unicode dentro de una arquitectura conceptual propia.
 
-modificar, adaptar, traducir o crear obras derivadas del sistema,
+Esta licencia no pretende atribuir derechos exclusivos sobre los caracteres Unicode considerados de forma aislada, ni sobre ideas, principios o conceptos abstractos que la legislación aplicable no permita proteger mediante derechos de autor.
 
-utilizar Oraclia o cualquiera de sus símbolos en productos, servicios, proyectos,
-aplicaciones, modelos de IA, herramientas digitales o procesos comerciales,
+La protección se refiere a la expresión original del proyecto: la documentación, el código, la organización, las formulaciones, las configuraciones, las estructuras y los materiales concretos desarrollados por Oraclia, en la medida reconocida por la legislación aplicable.
 
-integrar el lenguaje o su lógica en sistemas automáticos,
+## Naturaleza del proyecto
 
-emplear el modelo para fines predictivos, psicológicos, espirituales
-o de interpretación personal,
+Oraclia es un proyecto privado y propietario.
 
-realizar cualquier uso comercial o no comercial del sistema fuera de los permitidos.
+Sus materiales pueden compartirse de forma selectiva con personas o entidades interesadas, pero dicho acceso no convierte el proyecto en software o contenido abierto.
 
-Cualquier uso no autorizado se considerará una infracción de derechos de autor.
+Cualquier uso, implementación, adaptación o integración requiere autorización específica.
 
-🔒 NATURALEZA DEL SISTEMA
+## Solicitudes de consulta o uso
 
-Oraclia es un sistema conceptual propietario.
-Las 21 unidades simbólicas, su arquitectura estructural y su lógica de combinación
-constituyen una obra protegida y no pueden ampliarse, alterarse, reinterpretarse
-ni reutilizarse sin permiso explícito de la autora.
+Para solicitar una consulta del proyecto, acceso a los materiales o autorización para utilizar, adaptar, implementar o integrar Oraclia, es necesario contactar con la autora.
 
-📬 SOLICITUDES DE USO
+Cualquier autorización específica deberá constar por escrito.
 
-Para solicitar autorización para cualquier forma de aplicación,
-por favor contacte directamente con la autora.
+---
 
-Esta licencia garantiza:
-
-la preservación íntegra del sistema,
-
-el reconocimiento de la autoría,
-
-el control absoluto sobre el uso, implementación e integración de Oraclia.
-
-
-
-Només digues quina necessites.
-
-Una nueva versión de GPT está disponible. Continúa chateando para usar la versión antigua o empieza un nuevo c
+Esta licencia se aplica a los materiales de Oraclia salvo que un documento o acuerdo específico establezca expresamente unas condiciones diferentes.
