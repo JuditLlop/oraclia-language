@@ -1,110 +1,120 @@
-Oraclia · Núcleo del Sistema
+# Oraclia · Core del Sistema
 
-Prototipo mínimo del lenguaje simbólico de Oraclia.
-Esta versión define la arquitectura esencial del sistema: el núcleo conceptual, las funciones básicas de los símbolos y las reglas que permiten su uso estructural.
+Oraclia és un prototip de llenguatge simbòlic i sistema de lectura relacional en desenvolupament.
 
-Núcleo conceptual
+Aquest document fixa el nucli conceptual mínim del sistema. No descriu tota l’arquitectura interna ni tanca la gramàtica: estableix els principis que orienten el llenguatge.
 
-Oraclia es un lenguaje simbólico estructural, no interpretativo.
-Los símbolos no tienen significado psicológico, espiritual ni cultural: actúan como unidades formales que describen movimientos dentro de un proceso.
+## 1. Nucli conceptual
 
-Los principios básicos del núcleo son:
+Oraclia treballa amb un alfabet estable de 21 símbols Unicode.
 
-cada símbolo = una función estructural,
+Els símbols no funcionen com un diccionari de significats fixos.
 
-el conjunto completo = 21 unidades fijas y no ampliables,
+No representen identitats, diagnòstics, estats psicològics ni interpretacions tancades.
 
-las combinaciones = secuencias de proceso (no narrativas, no místicas),
+Funcionen com a operadors dins d’un camp de lectura.
 
-el uso del lenguaje = lectura de estados y transiciones.
+Un símbol pot modificar què es fa visible, quina diferència apareix, quines relacions entren en joc o com una configuració es transforma.
 
-Función de los símbolos (descripción mínima)
+El significat no resideix en el símbol aïllat.
 
-Este prototipo incluye únicamente la definición funcional mínima necesaria para establecer el sistema:
+Emergeix de la relació entre símbols, de la forma que adopten i de la trajectòria que construeixen al llarg del temps.
 
-∞ → campo abierto, potencial
+Principi central:
 
-† → punto de referencia / orientación
+**Els símbols no contenen significat. Modifiquen el camp on el significat emergeix.**
 
-◉ → foco
+## 2. Alfabet simbòlic
 
-≋ → retorno
+Oraclia utilitza 21 símbols:
 
-✧ → activación
+∞ · † · ◉ · ⇡ · ▭ · ○ · → · 〰 · ✧ · ? · ⊘ · ☲ · ∆ · ÷ · ≈ · ✛ · ⇤ · ≋ · () · Y · ≡
 
-▭ → límite
+L’alfabet és estable, però el comportament dels símbols és relacional i contextual.
 
-☲ → contraste
+Un mateix símbol pot participar en configuracions diferents segons:
 
-✛ → material / concreto
+- els altres símbols actius
+- les relacions entre ells
+- l’ordre
+- la forma
+- la trajectòria
+- el context concret de lectura
 
-∆ → cambio
+Per això, Oraclia no assigna una definició única i immutable a cada símbol.
 
-≈ → ajuste
+## 3. Relació, forma i transformació
 
-⇡ → ascenso / progreso
+La unitat principal de lectura no és el símbol aïllat.
 
-→ → dirección
+Oraclia observa:
 
-⊘ → interrupción
+- quins camps simbòlics estan actius
+- com es relacionen
+- quina forma produeixen
+- què es manté
+- què apareix
+- què desapareix
+- què es transforma al llarg del temps
 
-Y → bifurcación
+Una configuració no s’ha de reduir necessàriament a un únic símbol.
 
-≡ → síntesis
+Una mateixa constel·lació pot produir formes diferents segons les relacions i la disposició.
 
-⇤ → retirada
+Un patró no és simplement una repetició d’elements.
 
-() → dato literal
+És una forma de transformació que reapareix.
 
-〰 → ciclo
+## 4. Indeterminació
 
-? → indeterminación
+Oraclia no ha de forçar una lectura quan no hi ha prou estructura per sostenir-la.
 
-÷ → cierre
+Si una configuració simbòlica no es pot justificar sense afegir interpretació, el sistema pot mantenir-la com a no resolta.
 
-○ → pausa
+Aquesta indeterminació no significa que no hi hagi pes, relació, moviment o significació.
 
-Estas definiciones son suficientes para identificar las funciones del sistema sin desplegar el modelo completo.
+Significa només que encara no hi ha prou diferenciació per construir una configuració fiable.
 
-Arquitectura formal del lenguaje
+Millor no saber que deformar.
 
-Sistema cerrado: solo 21 símbolos estables.
+## 5. Relació amb la persona
 
-Funciones definidas: cada símbolo opera como estado o transición.
+Oraclia no defineix la persona.
 
-Combinación limitada: las secuencias describen movimiento, no significado.
+No substitueix la seva decisió.
 
-Neutralidad interpretativa: el lenguaje no realiza predicciones ni lecturas personales.
+No converteix una lectura provisional en una identitat fixa.
 
-Interoperabilidad: los símbolos son Unicode, procesables tanto por humanos como por sistemas de IA.
+La persona sempre pot corregir o desmentir la lectura.
 
-Esta estructura permite usar Oraclia para representar procesos en ámbitos personales, organizativos o computacionales.
+Quan això passa, Oraclia revisa el seu model.
 
-Ámbito de uso
+Una trajectòria recurrent no equival a dir “aquesta persona és així”.
 
-El sistema puede utilizarse para:
+## 6. Àmbit del sistema
 
-describir fases de un proceso,
+Oraclia pot utilitzar-se per explorar i representar:
 
-identificar transiciones estructurales,
+- processos
+- relacions
+- canvis de configuració
+- trajectòries
+- recurrències
+- moviments dins d’una conversa o situació
+- estructures personals, organitzatives o computacionals
 
-representar movimientos internos de una situación,
+No s’utilitza per:
 
-facilitar la lectura y la comunicación entre personas y sistemas de IA.
+- fer diagnòstics
+- predir el futur
+- atribuir essències personals
+- substituir decisions humanes
+- produir interpretacions psicològiques, espirituals o esotèriques com si fossin veritat
 
-No se utiliza para:
+## 7. Estat del prototip
 
-diagnósticos,
+Oraclia està en desenvolupament.
 
-predicciones,
+El sistema actual explora una gramàtica relacional basada en símbols, formes, dinàmiques i transformacions.
 
-interpretaciones emocionales,
-
-contenido esotérico.
-
-Estado del prototipo
-
-Este documento constituye el prototipo mínimo verificable del sistema Oraclia.
-Su publicación establece precedencia y autoría del modelo conceptual.
-
-
+Aquest document descriu el nucli conceptual actual del projecte, no una teoria definitiva ni una gramàtica tancada.
