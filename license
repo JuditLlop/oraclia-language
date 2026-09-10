@@ -1,46 +1,74 @@
+# Llicència d’ús — Oraclia
+
 Copyright © 2025 Judit Llop  
 Tots els drets reservats.
 
-Aquesta obra —incloent-hi el llenguatge simbòlic d’Oraclia, l’arquitectura del sistema,
-els 21 símbols, les seves funcions estructurals, la documentació, les definicions
-formals i qualsevol altre material associat— està protegida per drets d’autor.
+Oraclia és un projecte conceptual i tecnològic privat i propietari, actualment en desenvolupament.
 
-✔ ÚS PERMÈS
+Els textos, la documentació, el codi, les definicions, l’organització original del sistema, la seva arquitectura expressada i la resta de materials associats al projecte estan protegits pels drets d’autor i per la legislació aplicable.
+
+L’accés al repositori o a qualsevol material d’Oraclia no implica la concessió d’una llicència d’ús, implementació, adaptació o reutilització.
+
+## Consulta del projecte
+
+L’accés als materials d’Oraclia es concedeix únicament a persones autoritzades.
+
+Les persones, equips, institucions o organitzacions interessades a conèixer el projecte poden sol·licitar una consulta amb finalitats:
+
+- informatives;
+- acadèmiques;
+- de recerca;
+- d’avaluació;
+- o de possible col·laboració.
+
+Qualsevol consulta o accés es limita a les condicions acordades en cada cas.
+
+La consulta del projecte no autoritza, per si mateixa, a copiar, implementar, adaptar, redistribuir, reproduir ni integrar Oraclia o els seus materials en altres sistemes.
+
+## Ús permès
+
 Únicament es permet:
-– la lectura personal i informativa del contingut d’aquest repositori  
-– la consulta del model conceptual amb finalitats d’estudi o recerca no aplicades  
 
-Aquests usos NO autoritzen a implementar, copiar, integrar ni adaptar el sistema.
+- consultar els materials quan s’hagi autoritzat l’accés;
+- estudiar-los dins dels límits acordats;
+- citar fragments breus amb atribució adequada, quan la legislació aplicable ho permeti i quan les condicions d’accés no ho restringeixin.
 
-✘ ÚS NO PERMÈS SENSE AUTORITZACIÓ EXPRESSA I PER ESCRIT DE L’AUTORA
+Aquests usos no concedeixen cap dret sobre el sistema ni sobre els seus materials protegits.
 
-No es permet, en cap cas:
+## Ús no autoritzat sense permís exprés
 
-– copiar o redistribuir totalment o parcialment aquest material  
-– modificar, adaptar, traduir o crear versions derivades del sistema  
-– utilitzar Oraclia o qualsevol dels seus símbols en productes, serveis,
-  projectes, aplicacions, models d’IA, eines digitals o processos comercials  
-– integrar el llenguatge o la seva lògica en sistemes automàtics  
-– fer ús comercial o no comercial del model en cap forma  
-– utilitzar el sistema com a eina predictiva, psicològica,
-  espiritual o d’interpretació personal  
+Sense autorització prèvia i per escrit de l’autora, no es concedeix permís per:
 
-Qualsevol ús no autoritzat serà considerat una infracció dels drets d’autor.
+- copiar o redistribuir de manera substancial els materials del projecte;
+- modificar, adaptar o crear versions derivades de la documentació, el codi o l’arquitectura publicada o compartida;
+- incorporar materials propis d’Oraclia en productes, serveis, aplicacions, models d’IA o sistemes automàtics;
+- presentar una implementació derivada com a Oraclia o com una versió autoritzada del projecte;
+- utilitzar comercialment els materials protegits;
+- reutilitzar la documentació, el codi o l’arquitectura com a base directa d’un sistema derivat;
+- compartir amb tercers materials als quals s’hagi tingut accés de manera privada, excepte autorització expressa.
 
-🔒 NATURA DEL SISTEMA
+## Sobre els símbols i les idees
 
-Oraclia és un sistema conceptual **proprietari**.  
-Les 21 unitats simbòliques, la seva arquitectura estructural i la lògica de combinació
-constitueixen una obra protegida i no poden ser ampliades, alterades,
-reinterpretades ni reutilitzades sense permís explícit.
+Oraclia utilitza un alfabet de 21 símbols Unicode dins d’una arquitectura conceptual pròpia.
 
-📬 SOL·LICITUDS D’ÚS
+Aquesta llicència no pretén atribuir drets exclusius sobre els caràcters Unicode considerats de manera aïllada, ni sobre idees, principis o conceptes abstractes que la legislació aplicable no permeti protegir per drets d’autor.
 
-Per demanar autorització per a qualsevol aplicació,
-contacteu amb l’autora.
+La protecció es refereix a l’expressió original del projecte: la documentació, el codi, l’organització, les formulacions, les configuracions, les estructures i els materials concrets desenvolupats per Oraclia, en la mesura reconeguda per la legislació aplicable.
 
-Aquesta llicència garanteix:
-– la preservació del sistema  
-– el reconeixement de l’autoria  
-– el control total sobre l’ús, implementació i integració d’Oraclia  
+## Naturalesa del projecte
 
+Oraclia és un projecte privat i propietari.
+
+Els seus materials poden ser compartits de manera selectiva amb persones o entitats interessades, però aquest accés no converteix el projecte en programari o contingut obert.
+
+Qualsevol ús, implementació, adaptació o integració requereix autorització específica.
+
+## Sol·licituds de consulta o ús
+
+Per sol·licitar una consulta del projecte, accés als materials o autorització per utilitzar, adaptar, implementar o integrar Oraclia, cal contactar amb l’autora.
+
+Qualsevol autorització específica haurà de constar per escrit.
+
+---
+
+Aquesta llicència s’aplica als materials d’Oraclia excepte quan un document o acord específic estableixi expressament unes condicions diferents.
