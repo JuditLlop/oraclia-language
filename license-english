@@ -1,50 +1,74 @@
-LICENSE · Oraclia (Proprietary License)
+# Oraclia — Proprietary Use License
 
-Copyright © 2025 Judit Llop
+Copyright © 2025 Judit Llop  
 All rights reserved.
 
-This work —including the Oraclia symbolic language, the system architecture,
-the 21 symbols, their structural functions, all documentation,
-formal definitions, and any other associated material— is protected by copyright.
+Oraclia is a private and proprietary conceptual and technological project currently under development.
 
-✔ PERMITTED USE
+The texts, documentation, code, definitions, original organization of the system, expressed architecture, and other materials associated with the project are protected by copyright and applicable law.
 
-Only the following actions are allowed:
+Access to the repository or to any Oraclia material does not grant any license to use, implement, adapt, reproduce, or reuse the system.
 
-personal and informational reading of the content in this repository
+## Project consultation
 
-consultation of the conceptual model for study or non-applied academic research
+Access to Oraclia materials is granted only to authorized persons.
 
-These uses do NOT authorize implementing, copying, integrating, or adapting the system.
+Individuals, teams, institutions, or organizations interested in learning about the project may request a consultation for:
 
-✘ PROHIBITED USE WITHOUT EXPLICIT WRITTEN PERMISSION FROM THE AUTHOR
+- informational purposes;
+- academic purposes;
+- research;
+- evaluation;
+- or possible collaboration.
 
-The following actions are strictly forbidden:
+Any consultation or access is limited to the conditions agreed in each specific case.
 
-copying or redistributing this material, in whole or in part
+Consultation of the project does not, by itself, authorize copying, implementing, adapting, redistributing, reproducing, or integrating Oraclia or its materials into other systems.
 
-modifying, adapting, translating, or creating derivative versions of the system
+## Permitted use
 
-using Oraclia or any of its symbols in products, services,
-projects, applications, AI models, digital tools, or commercial processes
+Only the following uses are permitted:
 
-integrating the language or its logic into automated systems
+- consulting the materials when access has been authorized;
+- studying them within the agreed limits;
+- quoting short excerpts with appropriate attribution where permitted by applicable law and where the access conditions do not restrict it.
 
-any commercial or non-commercial use of the model
+These uses do not grant any rights over the system or its protected materials.
 
-using the system as a predictive, psychological,
-spiritual, or personal-interpretation tool
+## Uses requiring prior written permission
 
-Any unauthorized use will be considered a violation of copyright.
+Without prior written authorization from the author, no permission is granted to:
 
-🔒 NATURE OF THE SYSTEM
+- substantially copy or redistribute project materials;
+- modify, adapt, or create derivative versions of the documentation, code, or published or shared architecture;
+- incorporate Oraclia-specific materials into products, services, applications, AI models, or automated systems;
+- present a derived implementation as Oraclia or as an authorized version of the project;
+- make commercial use of protected project materials;
+- reuse the documentation, code, or architecture as the direct basis of a derived system;
+- share privately accessed materials with third parties unless expressly authorized.
 
-Oraclia is a proprietary conceptual system.
-The 21 symbolic units, their structural architecture, and their combinational logic
-constitute a protected work and may not be expanded, altered, reinterpreted,
-or reused without explicit permission from the author.
+## About the symbols and ideas
 
-📬 REQUESTS FOR AUTHORIZATION
+Oraclia uses an alphabet of 21 Unicode symbols within an original conceptual architecture.
 
-For any request to use, apply, or integrate the system,
-please contact the author directly
+This license does not claim exclusive rights over individual Unicode characters themselves, nor over abstract ideas, principles, or concepts that are not protectable by copyright under applicable law.
+
+Protection applies to the project’s original expression: its documentation, code, organization, formulations, configurations, structures, and concrete materials developed for Oraclia, to the extent recognized by applicable law.
+
+## Nature of the project
+
+Oraclia is a private and proprietary project.
+
+Its materials may be selectively shared with interested persons or organizations, but such access does not make the project open-source or open-content.
+
+Any use, implementation, adaptation, or integration requires specific authorization.
+
+## Requests for consultation or permission
+
+To request a project consultation, access to materials, or authorization to use, adapt, implement, or integrate Oraclia, please contact the author.
+
+Any specific authorization must be provided in writing.
+
+---
+
+This license applies to Oraclia materials unless a specific document or agreement expressly establishes different terms.
