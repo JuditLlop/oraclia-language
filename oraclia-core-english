@@ -1,108 +1,120 @@
-Oraclia · Core System
+# Oraclia · Núcleo del Sistema
 
-Minimal prototype of the Oraclia symbolic language.
-This version defines the essential architecture of the system: the conceptual core, the basic functions of the symbols, and the rules that allow their structural use.
+Oraclia es un prototipo de lenguaje simbólico y sistema de lectura relacional en desarrollo.
 
-1. Conceptual Core
+Este documento fija el núcleo conceptual mínimo del sistema. No describe toda la arquitectura interna ni cierra la gramática: establece los principios que orientan el lenguaje.
 
-Oraclia is an structural, non-interpretative symbolic language.
-The symbols do not carry psychological, spiritual, or cultural meaning: they operate purely as formal units that describe movements within a process.
+## 1. Núcleo conceptual
 
-The foundational principles are:
+Oraclia trabaja con un alfabeto estable de 21 símbolos Unicode.
 
-each symbol = one structural function
+Los símbolos no funcionan como un diccionario de significados fijos.
 
-the full set = 21 fixed, non-expandable units
+No representan identidades, diagnósticos, estados psicológicos ni interpretaciones cerradas.
 
-combinations = process sequences (not narratives, not mystical interpretations)
+Funcionan como operadores dentro de un campo de lectura.
 
-language use = reading states and transitions, not meanings
+Un símbolo puede modificar qué se vuelve visible, qué diferencia aparece, qué relaciones entran en juego o cómo una configuración se transforma.
 
-2. Symbol Functions (minimal definition)
+El significado no reside en el símbolo aislado.
 
-This prototype includes only the minimal functional definitions required to establish the system:
+Emerge de la relación entre símbolos, de la forma que adoptan y de la trayectoria que construyen a lo largo del tiempo.
 
-∞ → open field, potential
+Principio central:
 
-† → reference point / orientation
+**Los símbolos no contienen significado. Modifican el campo donde el significado emerge.**
 
-◉ → focus
+## 2. Alfabeto simbólico
 
-≋ → return
+Oraclia utiliza 21 símbolos:
 
-✧ → activation
+∞ · † · ◉ · ⇡ · ▭ · ○ · → · 〰 · ✧ · ? · ⊘ · ☲ · ∆ · ÷ · ≈ · ✛ · ⇤ · ≋ · () · Y · ≡
 
-▭ → limit
+El alfabeto es estable, pero el comportamiento de los símbolos es relacional y contextual.
 
-☲ → contrast
+Un mismo símbolo puede participar en configuraciones distintas según:
 
-✛ → material / concrete
+- los otros símbolos activos
+- las relaciones entre ellos
+- el orden
+- la forma
+- la trayectoria
+- el contexto concreto de lectura
 
-∆ → change
+Por eso, Oraclia no asigna una definición única e inmutable a cada símbolo.
 
-≈ → adjustment
+## 3. Relación, forma y transformación
 
-⇡ → ascent / progress
+La unidad principal de lectura no es el símbolo aislado.
 
-→ → direction
+Oraclia observa:
 
-⊘ → interruption
+- qué campos simbólicos están activos
+- cómo se relacionan
+- qué forma producen
+- qué se mantiene
+- qué aparece
+- qué desaparece
+- qué se transforma a lo largo del tiempo
 
-Y → bifurcation
+Una configuración no tiene que reducirse necesariamente a un único símbolo.
 
-≡ → synthesis
+Una misma constelación puede producir formas distintas según las relaciones y la disposición.
 
-⇤ → withdrawal
+Un patrón no es simplemente una repetición de elementos.
 
-() → literal data
+Es una forma de transformación que reaparece.
 
-〰 → cycle
+## 4. Indeterminación
 
-? → indeterminacy
+Oraclia no debe forzar una lectura cuando no existe suficiente estructura para sostenerla.
 
-÷ → closure
+Si una configuración simbólica no puede justificarse sin añadir interpretación, el sistema puede mantenerla como no resuelta.
 
-○ → pause
+Esta indeterminación no significa que no haya peso, relación, movimiento o significación.
 
-These definitions are sufficient to identify the system’s functions without exposing the full model.
+Significa únicamente que todavía no existe suficiente diferenciación para construir una configuración fiable.
 
-3. Formal Architecture of the Language
+Mejor no saber que deformar.
 
-Closed system: only 21 stable symbols.
+## 5. Relación con la persona
 
-Defined functions: each symbol operates as a state or transition.
+Oraclia no define a la persona.
 
-Controlled combination: sequences describe movement, not meaning.
+No sustituye su decisión.
 
-Interpretive neutrality: the language does not perform predictions or personal readings.
+No convierte una lectura provisional en una identidad fija.
 
-Interoperability: symbols are Unicode, processable by both humans and AI systems.
+La persona siempre puede corregir o desmentir la lectura.
 
-This structure allows Oraclia to represent processes in personal, organizational, or computational contexts.
+Cuando eso ocurre, Oraclia revisa su modelo.
 
-4. Scope of Use
+Una trayectoria recurrente no equivale a afirmar “esta persona es así”.
 
-The system can be used to:
+## 6. Ámbito del sistema
 
-describe phases of a process
+Oraclia puede utilizarse para explorar y representar:
 
-identify structural transitions
+- procesos
+- relaciones
+- cambios de configuración
+- trayectorias
+- recurrencias
+- movimientos dentro de una conversación o situación
+- estructuras personales, organizativas o computacionales
 
-represent internal movements of a situation
+No se utiliza para:
 
-support clear communication between humans and AI systems
+- realizar diagnósticos
+- predecir el futuro
+- atribuir esencias personales
+- sustituir decisiones humanas
+- producir interpretaciones psicológicas, espirituales o esotéricas como si fueran verdad
 
-The system is not used for:
+## 7. Estado del prototipo
 
-diagnostics
+Oraclia está en desarrollo.
 
-predictions
+El sistema actual explora una gramática relacional basada en símbolos, formas, dinámicas y transformaciones.
 
-emotional interpretation
-
-esoteric or symbolic readings
-
-5. Prototype Status
-
-This document constitutes the minimal verifiable prototype of the Oraclia system.
-Its publication establishes precedence and authorship of the conceptual model.
+Este documento describe el núcleo conceptual actual del proyecto, no una teoría definitiva ni una gramática cerrada.
