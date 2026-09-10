@@ -1,120 +1,120 @@
-# Oraclia · Core del Sistema
+# Oraclia · Núcleo del Sistema
 
-Oraclia és un prototip de llenguatge simbòlic i sistema de lectura relacional en desenvolupament.
+Oraclia es un prototipo de lenguaje simbólico y sistema de lectura relacional en desarrollo.
 
-Aquest document fixa el nucli conceptual mínim del sistema. No descriu tota l’arquitectura interna ni tanca la gramàtica: estableix els principis que orienten el llenguatge.
+Este documento fija el núcleo conceptual mínimo del sistema. No describe toda la arquitectura interna ni cierra la gramática: establece los principios que orientan el lenguaje.
 
-## 1. Nucli conceptual
+## 1. Núcleo conceptual
 
-Oraclia treballa amb un alfabet estable de 21 símbols Unicode.
+Oraclia trabaja con un alfabeto estable de 21 símbolos Unicode.
 
-Els símbols no funcionen com un diccionari de significats fixos.
+Los símbolos no funcionan como un diccionario de significados fijos.
 
-No representen identitats, diagnòstics, estats psicològics ni interpretacions tancades.
+No representan identidades, diagnósticos, estados psicológicos ni interpretaciones cerradas.
 
-Funcionen com a operadors dins d’un camp de lectura.
+Funcionan como operadores dentro de un campo de lectura.
 
-Un símbol pot modificar què es fa visible, quina diferència apareix, quines relacions entren en joc o com una configuració es transforma.
+Un símbolo puede modificar qué se vuelve visible, qué diferencia aparece, qué relaciones entran en juego o cómo una configuración se transforma.
 
-El significat no resideix en el símbol aïllat.
+El significado no reside en el símbolo aislado.
 
-Emergeix de la relació entre símbols, de la forma que adopten i de la trajectòria que construeixen al llarg del temps.
+Emerge de la relación entre símbolos, de la forma que adoptan y de la trayectoria que construyen a lo largo del tiempo.
 
-Principi central:
+Principio central:
 
-**Els símbols no contenen significat. Modifiquen el camp on el significat emergeix.**
+**Los símbolos no contienen significado. Modifican el campo donde el significado emerge.**
 
-## 2. Alfabet simbòlic
+## 2. Alfabeto simbólico
 
-Oraclia utilitza 21 símbols:
+Oraclia utiliza 21 símbolos:
 
 ∞ · † · ◉ · ⇡ · ▭ · ○ · → · 〰 · ✧ · ? · ⊘ · ☲ · ∆ · ÷ · ≈ · ✛ · ⇤ · ≋ · () · Y · ≡
 
-L’alfabet és estable, però el comportament dels símbols és relacional i contextual.
+El alfabeto es estable, pero el comportamiento de los símbolos es relacional y contextual.
 
-Un mateix símbol pot participar en configuracions diferents segons:
+Un mismo símbolo puede participar en configuraciones distintas según:
 
-- els altres símbols actius
-- les relacions entre ells
-- l’ordre
+- los otros símbolos activos
+- las relaciones entre ellos
+- el orden
 - la forma
-- la trajectòria
-- el context concret de lectura
+- la trayectoria
+- el contexto concreto de lectura
 
-Per això, Oraclia no assigna una definició única i immutable a cada símbol.
+Por eso, Oraclia no asigna una definición única e inmutable a cada símbolo.
 
-## 3. Relació, forma i transformació
+## 3. Relación, forma y transformación
 
-La unitat principal de lectura no és el símbol aïllat.
+La unidad principal de lectura no es el símbolo aislado.
 
 Oraclia observa:
 
-- quins camps simbòlics estan actius
-- com es relacionen
-- quina forma produeixen
-- què es manté
-- què apareix
-- què desapareix
-- què es transforma al llarg del temps
+- qué campos simbólicos están activos
+- cómo se relacionan
+- qué forma producen
+- qué se mantiene
+- qué aparece
+- qué desaparece
+- qué se transforma a lo largo del tiempo
 
-Una configuració no s’ha de reduir necessàriament a un únic símbol.
+Una configuración no tiene que reducirse necesariamente a un único símbolo.
 
-Una mateixa constel·lació pot produir formes diferents segons les relacions i la disposició.
+Una misma constelación puede producir formas distintas según las relaciones y la disposición.
 
-Un patró no és simplement una repetició d’elements.
+Un patrón no es simplemente una repetición de elementos.
 
-És una forma de transformació que reapareix.
+Es una forma de transformación que reaparece.
 
-## 4. Indeterminació
+## 4. Indeterminación
 
-Oraclia no ha de forçar una lectura quan no hi ha prou estructura per sostenir-la.
+Oraclia no debe forzar una lectura cuando no existe suficiente estructura para sostenerla.
 
-Si una configuració simbòlica no es pot justificar sense afegir interpretació, el sistema pot mantenir-la com a no resolta.
+Si una configuración simbólica no puede justificarse sin añadir interpretación, el sistema puede mantenerla como no resuelta.
 
-Aquesta indeterminació no significa que no hi hagi pes, relació, moviment o significació.
+Esta indeterminación no significa que no haya peso, relación, movimiento o significación.
 
-Significa només que encara no hi ha prou diferenciació per construir una configuració fiable.
+Significa únicamente que todavía no existe suficiente diferenciación para construir una configuración fiable.
 
-Millor no saber que deformar.
+Mejor no saber que deformar.
 
-## 5. Relació amb la persona
+## 5. Relación con la persona
 
-Oraclia no defineix la persona.
+Oraclia no define a la persona.
 
-No substitueix la seva decisió.
+No sustituye su decisión.
 
-No converteix una lectura provisional en una identitat fixa.
+No convierte una lectura provisional en una identidad fija.
 
-La persona sempre pot corregir o desmentir la lectura.
+La persona siempre puede corregir o desmentir la lectura.
 
-Quan això passa, Oraclia revisa el seu model.
+Cuando eso ocurre, Oraclia revisa su modelo.
 
-Una trajectòria recurrent no equival a dir “aquesta persona és així”.
+Una trayectoria recurrente no equivale a afirmar “esta persona es así”.
 
-## 6. Àmbit del sistema
+## 6. Ámbito del sistema
 
-Oraclia pot utilitzar-se per explorar i representar:
+Oraclia puede utilizarse para explorar y representar:
 
-- processos
-- relacions
-- canvis de configuració
-- trajectòries
-- recurrències
-- moviments dins d’una conversa o situació
-- estructures personals, organitzatives o computacionals
+- procesos
+- relaciones
+- cambios de configuración
+- trayectorias
+- recurrencias
+- movimientos dentro de una conversación o situación
+- estructuras personales, organizativas o computacionales
 
-No s’utilitza per:
+No se utiliza para:
 
-- fer diagnòstics
-- predir el futur
-- atribuir essències personals
-- substituir decisions humanes
-- produir interpretacions psicològiques, espirituals o esotèriques com si fossin veritat
+- realizar diagnósticos
+- predecir el futuro
+- atribuir esencias personales
+- sustituir decisiones humanas
+- producir interpretaciones psicológicas, espirituales o esotéricas como si fueran verdad
 
-## 7. Estat del prototip
+## 7. Estado del prototipo
 
-Oraclia està en desenvolupament.
+Oraclia está en desarrollo.
 
-El sistema actual explora una gramàtica relacional basada en símbols, formes, dinàmiques i transformacions.
+El sistema actual explora una gramática relacional basada en símbolos, formas, dinámicas y transformaciones.
 
-Aquest document descriu el nucli conceptual actual del projecte, no una teoria definitiva ni una gramàtica tancada.
+Este documento describe el núcleo conceptual actual del proyecto, no una teoría definitiva ni una gramática cerrada.
