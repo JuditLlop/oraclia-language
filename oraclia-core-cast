@@ -27,7 +27,7 @@ Oraclia utiliza 21 unidades simbólicas representadas con Unicode:
 | ∞ | Campo abierto, potencial | U+221E |
 | † | Punto de referencia / orientación | U+2020 |
 | ◉ | Foco | U+25C9 |
-| ⇡ | Ascenso / progreso | U+21E1 |
+| ⇡ | Ascenso / intensificación | U+21E1 |
 | ▭ | Límite | U+25AD |
 | ○ | Pausa | U+25CB |
 | → | Dirección | U+2192 |
@@ -47,6 +47,10 @@ Oraclia utiliza 21 unidades simbólicas representadas con Unicode:
 | ≡ | Síntesis | U+2261 |
 
 La unidad `()` está formada por dos caracteres Unicode, pero constituye una sola unidad simbólica de Oraclia.
+
+() identifica lo que hay o lo que se ha aportado, antes de interpretarlo.
+
+Los campos de referencia de la tabla describen de forma condensada el núcleo de movimiento de cada símbolo. No agotan sus usos ni sus significados contextuales.
 
 Estos campos orientan la lectura de cada símbolo; el significado concreto emerge de sus relaciones y del contexto.
 
