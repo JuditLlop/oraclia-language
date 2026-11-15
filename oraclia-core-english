@@ -1,120 +1,135 @@
-# Oraclia · Núcleo del Sistema
+# Oraclia · System Core
 
-Oraclia es un prototipo de lenguaje simbólico y sistema de lectura relacional en desarrollo.
+Oraclia is a prototype symbolic language and relational reading system under development.
 
-Este documento fija el núcleo conceptual mínimo del sistema. No describe toda la arquitectura interna ni cierra la gramática: establece los principios que orientan el lenguaje.
+This document establishes its conceptual core: the principles that guide the language, its structure and its use. It does not describe the entire internal architecture or constitute a closed grammar.
 
-## 1. Núcleo conceptual
+## 1. Conceptual core
 
-Oraclia trabaja con un alfabeto estable de 21 símbolos Unicode.
+Oraclia works with a stable alphabet of 21 symbols, each with its own core of movement.
 
-Los símbolos no funcionan como un diccionario de significados fijos.
+The symbols act as operators that allow relationships, states, transitions and transformations within a process to be described and explored.
 
-No representan identidades, diagnósticos, estados psicológicos ni interpretaciones cerradas.
+These cores guide the reading, but do not constitute a dictionary of fixed meanings. A symbol does not, on its own, determine an interpretation.
 
-Funcionan como operadores dentro de un campo de lectura.
+Meaning emerges from the relationships between symbols, the form they take, the context and the trajectory they build over time.
 
-Un símbolo puede modificar qué se vuelve visible, qué diferencia aparece, qué relaciones entran en juego o cómo una configuración se transforma.
+A symbol can modify what becomes visible, what difference appears, what relationships come into play or how a configuration transforms.
 
-El significado no reside en el símbolo aislado.
+**Each symbol retains its own core. The meaning of the reading emerges from relationships and context.**
 
-Emerge de la relación entre símbolos, de la forma que adoptan y de la trayectoria que construyen a lo largo del tiempo.
+## 2. Symbolic alphabet and reference fields
 
-Principio central:
+Oraclia uses 21 symbolic units represented using Unicode:
 
-**Los símbolos no contienen significado. Modifican el campo donde el significado emerge.**
+| Symbol | Field | Unicode code point |
+|---|---|---|
+| ∞ | Open field, potential | U+221E |
+| † | Reference point / orientation | U+2020 |
+| ◉ | Focus | U+25C9 |
+| ⇡ | Ascent / progress | U+21E1 |
+| ▭ | Boundary | U+25AD |
+| ○ | Pause | U+25CB |
+| → | Direction | U+2192 |
+| 〰 | Cycle | U+3030 |
+| ✧ | Activation | U+2727 |
+| ? | Indeterminacy | U+003F |
+| ⊘ | Interruption | U+2298 |
+| ☲ | Contrast | U+2632 |
+| ∆ | Change | U+2206 |
+| ÷ | Closure | U+00F7 |
+| ≈ | Adjustment | U+2248 |
+| ✛ | Material / concrete | U+271B |
+| ⇤ | Withdrawal | U+21E4 |
+| ≋ | Return | U+224B |
+| () | Literal datum | U+0028 + U+0029 |
+| Y | Bifurcation | U+0059 |
+| ≡ | Synthesis | U+2261 |
 
-## 2. Alfabeto simbólico
+The unit `()` consists of two Unicode characters, but constitutes a single symbolic unit in Oraclia.
 
-Oraclia utiliza 21 símbolos:
+These fields guide the reading of each symbol; the specific meaning emerges from its relationships and context.
 
-∞ · † · ◉ · ⇡ · ▭ · ○ · → · 〰 · ✧ · ? · ⊘ · ☲ · ∆ · ÷ · ≈ · ✛ · ⇤ · ≋ · () · Y · ≡
+The alphabet is stable, but the behaviour of the symbols is relational and contextual.
 
-El alfabeto es estable, pero el comportamiento de los símbolos es relacional y contextual.
+The same symbol can participate in different configurations depending on:
 
-Un mismo símbolo puede participar en configuraciones distintas según:
+- The other active symbols.
+- The relationships between them.
+- The order and arrangement.
+- The form they produce.
+- The trajectory.
+- The specific context of the reading.
 
-- los otros símbolos activos
-- las relaciones entre ellos
-- el orden
-- la forma
-- la trayectoria
-- el contexto concreto de lectura
+Context does not turn the symbols into arbitrary elements: the reading must maintain a recognisable relationship with their cores of movement.
 
-Por eso, Oraclia no asigna una definición única e inmutable a cada símbolo.
+## 3. Relationship, form and transformation
 
-## 3. Relación, forma y transformación
+The primary unit of reading is the configuration of symbols and the relationships that occur within it.
 
-La unidad principal de lectura no es el símbolo aislado.
+Oraclia observes:
 
-Oraclia observa:
+- Which symbolic fields are active.
+- How they relate to each other.
+- What form they produce.
+- What remains.
+- What appears.
+- What disappears.
+- What transforms over time.
 
-- qué campos simbólicos están activos
-- cómo se relacionan
-- qué forma producen
-- qué se mantiene
-- qué aparece
-- qué desaparece
-- qué se transforma a lo largo del tiempo
+A configuration does not necessarily have to be reduced to a single symbol. The same constellation can produce different forms depending on the relationships and arrangement.
 
-Una configuración no tiene que reducirse necesariamente a un único símbolo.
+A pattern is not simply a repetition of elements: it is a recurring form of transformation.
 
-Una misma constelación puede producir formas distintas según las relaciones y la disposición.
+These relationships can unfold through different forms of expression: an explanation, a question, a scene, a dialogue or an image. Each form can make different aspects of the explored movement visible.
 
-Un patrón no es simplemente una repetición de elementos.
+## 4. Indeterminacy
 
-Es una forma de transformación que reaparece.
+Oraclia must not force a reading when there is insufficient structure to support it.
 
-## 4. Indeterminación
+If a configuration can only be justified by adding assumptions unsupported by the context, the system can leave it unresolved.
 
-Oraclia no debe forzar una lectura cuando no existe suficiente estructura para sostenerla.
+This indeterminacy does not mean that there is no weight, relationship, movement or significance. It means that there is not yet sufficient differentiation to construct a grounded reading.
 
-Si una configuración simbólica no puede justificarse sin añadir interpretación, el sistema puede mantenerla como no resuelta.
+**Better not to know than to distort.**
 
-Esta indeterminación no significa que no haya peso, relación, movimiento o significación.
+## 5. Relationship with the person
 
-Significa únicamente que todavía no existe suficiente diferenciación para construir una configuración fiable.
+The reading Oraclia proposes is situated, provisional and revisable.
 
-Mejor no saber que deformar.
+The symbols do not represent identities, diagnoses or fixed psychological states.
 
-## 5. Relación con la persona
+Oraclia does not define the person, replace their decision or turn a provisional reading into a permanent identity.
 
-Oraclia no define a la persona.
+The person can always correct or refute the reading. When that happens, Oraclia revises its proposal.
 
-No sustituye su decisión.
+A recurring trajectory does not amount to saying “this is what this person is like”.
 
-No convierte una lectura provisional en una identidad fija.
+**The person retains their judgement.**
 
-La persona siempre puede corregir o desmentir la lectura.
+## 6. Scope of use
 
-Cuando eso ocurre, Oraclia revisa su modelo.
+Oraclia can be used to explore and represent:
 
-Una trayectoria recurrente no equivale a afirmar “esta persona es así”.
+- Phases and transitions of a process.
+- Relationships and changes in configuration.
+- Trajectories and recurrences.
+- Movements within a conversation or situation.
+- Personal, organisational or computational structures.
+- Relationships to be communicated between people and AI systems.
 
-## 6. Ámbito del sistema
+It is not used to:
 
-Oraclia puede utilizarse para explorar y representar:
+- Make diagnoses.
+- Predict the future.
+- Attribute personal essences.
+- Replace human decisions.
+- Present psychological, spiritual or esoteric interpretations as if they were truths.
 
-- procesos
-- relaciones
-- cambios de configuración
-- trayectorias
-- recurrencias
-- movimientos dentro de una conversación o situación
-- estructuras personales, organizativas o computacionales
+## 7. Prototype status
 
-No se utiliza para:
+Oraclia is under development.
 
-- realizar diagnósticos
-- predecir el futuro
-- atribuir esencias personales
-- sustituir decisiones humanas
-- producir interpretaciones psicológicas, espirituales o esotéricas como si fueran verdad
+The system explores a relational grammar based on a stable alphabet, cores of movement, forms, dynamics and transformations.
 
-## 7. Estado del prototipo
-
-Oraclia está en desarrollo.
-
-El sistema actual explora una gramática relacional basada en símbolos, formas, dinámicas y transformaciones.
-
-Este documento describe el núcleo conceptual actual del proyecto, no una teoría definitiva ni una gramática cerrada.
+This document proposes a combined formulation of the Catalan and Spanish core texts. It does not constitute a definitive theory or a closed grammar.
