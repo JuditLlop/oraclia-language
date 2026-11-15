@@ -136,4 +136,4 @@ Oraclia està en desenvolupament.
 
 El sistema explora una gramàtica relacional basada en un alfabet estable, nuclis de moviment, formes, dinàmiques i transformacions.
 
-Aquest document proposa una formulació conjunta dels nuclis català i castellà. No constitueix una teoria definitiva ni una gramàtica tancada.
+Aquest document recull el nucli conceptual actual d’Oraclia. No constitueix una teoria definitiva ni una gramàtica tancada.
