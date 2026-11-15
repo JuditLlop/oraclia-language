@@ -27,7 +27,7 @@ Oraclia uses 21 symbolic units represented using Unicode:
 | ∞ | Open field, potential | U+221E |
 | † | Reference point / orientation | U+2020 |
 | ◉ | Focus | U+25C9 |
-| ⇡ | Ascent / progress | U+21E1 |
+| ⇡ | Ascent / intensification | U+21E1 |
 | ▭ | Boundary | U+25AD |
 | ○ | Pause | U+25CB |
 | → | Direction | U+2192 |
@@ -47,6 +47,10 @@ Oraclia uses 21 symbolic units represented using Unicode:
 | ≡ | Synthesis | U+2261 |
 
 The unit `()` consists of two Unicode characters, but constitutes a single symbolic unit in Oraclia.
+
+() identifies what is present or what has been provided, before it is interpreted.
+
+The reference fields in the table describe each symbol’s core of movement in condensed form. They do not exhaust its uses or contextual meanings.
 
 These fields guide the reading of each symbol; the specific meaning emerges from its relationships and context.
 
