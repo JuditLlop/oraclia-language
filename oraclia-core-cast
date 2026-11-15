@@ -1,120 +1,135 @@
-# Oraclia · Núcleo del Sistema
+# Oraclia · Núcleo del sistema
 
 Oraclia es un prototipo de lenguaje simbólico y sistema de lectura relacional en desarrollo.
 
-Este documento fija el núcleo conceptual mínimo del sistema. No describe toda la arquitectura interna ni cierra la gramática: establece los principios que orientan el lenguaje.
+Este documento establece su núcleo conceptual: los principios que orientan el lenguaje, su estructura y su uso. No describe toda la arquitectura interna ni constituye una gramática cerrada.
 
 ## 1. Núcleo conceptual
 
-Oraclia trabaja con un alfabeto estable de 21 símbolos Unicode.
+Oraclia trabaja con un alfabeto estable de 21 símbolos, cada uno con un núcleo de movimiento propio.
 
-Los símbolos no funcionan como un diccionario de significados fijos.
+Los símbolos actúan como operadores que permiten describir y explorar relaciones, estados, transiciones y transformaciones dentro de un proceso.
 
-No representan identidades, diagnósticos, estados psicológicos ni interpretaciones cerradas.
+Estos núcleos orientan la lectura, pero no constituyen un diccionario de significados fijos. Un símbolo no determina, por sí solo, una interpretación.
 
-Funcionan como operadores dentro de un campo de lectura.
+El significado emerge de las relaciones entre símbolos, de la forma que adoptan, del contexto y de la trayectoria que construyen a lo largo del tiempo.
 
-Un símbolo puede modificar qué se vuelve visible, qué diferencia aparece, qué relaciones entran en juego o cómo una configuración se transforma.
+Un símbolo puede modificar qué se vuelve visible, qué diferencia aparece, qué relaciones entran en juego o cómo se transforma una configuración.
 
-El significado no reside en el símbolo aislado.
+**Cada símbolo conserva un núcleo propio. El significado de la lectura emerge de las relaciones y del contexto.**
 
-Emerge de la relación entre símbolos, de la forma que adoptan y de la trayectoria que construyen a lo largo del tiempo.
+## 2. Alfabeto simbólico y campos de referencia
 
-Principio central:
+Oraclia utiliza 21 unidades simbólicas representadas con Unicode:
 
-**Los símbolos no contienen significado. Modifican el campo donde el significado emerge.**
+| Símbolo | Campo | Código Unicode |
+|---|---|---|
+| ∞ | Campo abierto, potencial | U+221E |
+| † | Punto de referencia / orientación | U+2020 |
+| ◉ | Foco | U+25C9 |
+| ⇡ | Ascenso / progreso | U+21E1 |
+| ▭ | Límite | U+25AD |
+| ○ | Pausa | U+25CB |
+| → | Dirección | U+2192 |
+| 〰 | Ciclo | U+3030 |
+| ✧ | Activación | U+2727 |
+| ? | Indeterminación | U+003F |
+| ⊘ | Interrupción | U+2298 |
+| ☲ | Contraste | U+2632 |
+| ∆ | Cambio | U+2206 |
+| ÷ | Cierre | U+00F7 |
+| ≈ | Ajuste | U+2248 |
+| ✛ | Material / concreto | U+271B |
+| ⇤ | Retirada | U+21E4 |
+| ≋ | Retorno | U+224B |
+| () | Dato literal | U+0028 + U+0029 |
+| Y | Bifurcación | U+0059 |
+| ≡ | Síntesis | U+2261 |
 
-## 2. Alfabeto simbólico
+La unidad `()` está formada por dos caracteres Unicode, pero constituye una sola unidad simbólica de Oraclia.
 
-Oraclia utiliza 21 símbolos:
-
-∞ · † · ◉ · ⇡ · ▭ · ○ · → · 〰 · ✧ · ? · ⊘ · ☲ · ∆ · ÷ · ≈ · ✛ · ⇤ · ≋ · () · Y · ≡
+Estos campos orientan la lectura de cada símbolo; el significado concreto emerge de sus relaciones y del contexto.
 
 El alfabeto es estable, pero el comportamiento de los símbolos es relacional y contextual.
 
-Un mismo símbolo puede participar en configuraciones distintas según:
+Un mismo símbolo puede participar en configuraciones diferentes según:
 
-- los otros símbolos activos
-- las relaciones entre ellos
-- el orden
-- la forma
-- la trayectoria
-- el contexto concreto de lectura
+- Los otros símbolos activos.
+- Las relaciones entre ellos.
+- El orden y la disposición.
+- La forma que producen.
+- La trayectoria.
+- El contexto concreto de lectura.
 
-Por eso, Oraclia no asigna una definición única e inmutable a cada símbolo.
+El contexto no convierte los símbolos en elementos arbitrarios: la lectura debe mantener una relación reconocible con sus núcleos de movimiento.
 
 ## 3. Relación, forma y transformación
 
-La unidad principal de lectura no es el símbolo aislado.
+La unidad principal de lectura es la configuración de símbolos y las relaciones que se producen en ella.
 
 Oraclia observa:
 
-- qué campos simbólicos están activos
-- cómo se relacionan
-- qué forma producen
-- qué se mantiene
-- qué aparece
-- qué desaparece
-- qué se transforma a lo largo del tiempo
+- Qué campos simbólicos están activos.
+- Cómo se relacionan.
+- Qué forma producen.
+- Qué se mantiene.
+- Qué aparece.
+- Qué desaparece.
+- Qué se transforma a lo largo del tiempo.
 
-Una configuración no tiene que reducirse necesariamente a un único símbolo.
+Una configuración no tiene que reducirse necesariamente a un único símbolo. Una misma constelación puede producir formas diferentes según las relaciones y la disposición.
 
-Una misma constelación puede producir formas distintas según las relaciones y la disposición.
+Un patrón no es simplemente una repetición de elementos: es una forma de transformación que reaparece.
 
-Un patrón no es simplemente una repetición de elementos.
-
-Es una forma de transformación que reaparece.
+Estas relaciones pueden desplegarse en formas de expresión diferentes: una explicación, una pregunta, una escena, un diálogo o una imagen. Cada forma puede hacer visibles aspectos diferentes del movimiento explorado.
 
 ## 4. Indeterminación
 
-Oraclia no debe forzar una lectura cuando no existe suficiente estructura para sostenerla.
+Oraclia no debe forzar una lectura cuando no hay suficiente estructura para sostenerla.
 
-Si una configuración simbólica no puede justificarse sin añadir interpretación, el sistema puede mantenerla como no resuelta.
+Si una configuración solo puede justificarse añadiendo supuestos sin respaldo en el contexto, el sistema puede mantenerla como no resuelta.
 
-Esta indeterminación no significa que no haya peso, relación, movimiento o significación.
+Esta indeterminación no significa que no haya peso, relación, movimiento o significación. Significa que todavía no hay suficiente diferenciación para construir una lectura fundamentada.
 
-Significa únicamente que todavía no existe suficiente diferenciación para construir una configuración fiable.
-
-Mejor no saber que deformar.
+**Mejor no saber que deformar.**
 
 ## 5. Relación con la persona
 
-Oraclia no define a la persona.
+La lectura que Oraclia propone es situada, provisional y revisable.
 
-No sustituye su decisión.
+Los símbolos no representan identidades, diagnósticos ni estados psicológicos fijos.
 
-No convierte una lectura provisional en una identidad fija.
+Oraclia no define a la persona, no sustituye su decisión ni convierte una lectura provisional en una identidad permanente.
 
-La persona siempre puede corregir o desmentir la lectura.
+La persona siempre puede corregir o desmentir la lectura. Cuando eso ocurre, Oraclia revisa su propuesta.
 
-Cuando eso ocurre, Oraclia revisa su modelo.
+Una trayectoria recurrente no equivale a afirmar «esta persona es así».
 
-Una trayectoria recurrente no equivale a afirmar “esta persona es así”.
+**La persona conserva el criterio.**
 
-## 6. Ámbito del sistema
+## 6. Ámbito de uso
 
 Oraclia puede utilizarse para explorar y representar:
 
-- procesos
-- relaciones
-- cambios de configuración
-- trayectorias
-- recurrencias
-- movimientos dentro de una conversación o situación
-- estructuras personales, organizativas o computacionales
+- Fases y transiciones de un proceso.
+- Relaciones y cambios de configuración.
+- Trayectorias y recurrencias.
+- Movimientos dentro de una conversación o situación.
+- Estructuras personales, organizativas o computacionales.
+- Relaciones que se quieren comunicar entre personas y sistemas de IA.
 
 No se utiliza para:
 
-- realizar diagnósticos
-- predecir el futuro
-- atribuir esencias personales
-- sustituir decisiones humanas
-- producir interpretaciones psicológicas, espirituales o esotéricas como si fueran verdad
+- Realizar diagnósticos.
+- Predecir el futuro.
+- Atribuir esencias personales.
+- Sustituir decisiones humanas.
+- Presentar interpretaciones psicológicas, espirituales o esotéricas como si fueran verdades.
 
 ## 7. Estado del prototipo
 
 Oraclia está en desarrollo.
 
-El sistema actual explora una gramática relacional basada en símbolos, formas, dinámicas y transformaciones.
+El sistema explora una gramática relacional basada en un alfabeto estable, núcleos de movimiento, formas, dinámicas y transformaciones.
 
-Este documento describe el núcleo conceptual actual del proyecto, no una teoría definitiva ni una gramática cerrada.
+Este documento propone una formulación conjunta de los núcleos catalán y castellano. No constituye una teoría definitiva ni una gramática cerrada.
