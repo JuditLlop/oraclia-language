@@ -1,108 +1,135 @@
-Oraclia · Core del Sistema
+# Oraclia · Nucli del sistema
 
-Prototip mínim del llenguatge simbòlic d’Oraclia.
-Aquesta versió defineix l’arquitectura essencial del sistema: el nucli conceptual, les funcions bàsiques dels símbols i les regles que en permeten l’ús estructural.
+Oraclia és un prototip de llenguatge simbòlic i sistema de lectura relacional en desenvolupament.
 
-1. Nucli conceptual
+Aquest document estableix el seu nucli conceptual: els principis que orienten el llenguatge, la seva estructura i el seu ús. No descriu tota l’arquitectura interna ni constitueix una gramàtica tancada.
 
-Oraclia és un llenguatge simbòlic estructural, no interpretatiu.
-Els símbols no tenen significat psicològic, espiritual ni cultural: actuen com unitats formals que descriuen moviments dins d’un procés.
+## 1. Nucli conceptual
 
-Els principis bàsics del nucli són:
+Oraclia treballa amb un alfabet estable de 21 símbols, cadascun amb un nucli de moviment propi.
 
-cada símbol = una funció estructural
+Els símbols actuen com a operadors que permeten descriure i explorar relacions, estats, transicions i transformacions dins d’un procés.
 
-el conjunt complet = 21 unitats fixes i no ampliables
+Aquests nuclis orienten la lectura, però no constitueixen un diccionari de significats fixos. Un símbol no determina, per si sol, una interpretació.
 
-les combinacions = seqüències de procés (no narratives, no misticistes)
+El significat emergeix de les relacions entre símbols, de la forma que adopten, del context i de la trajectòria que construeixen al llarg del temps.
 
-l’ús del llenguatge = lectura d’estats i transicions
+Un símbol pot modificar què es torna visible, quina diferència apareix, quines relacions entren en joc o com es transforma una configuració.
 
-2. Funció dels símbols (descripció mínima)
+**Cada símbol conserva un nucli propi. El significat de la lectura emergeix de les relacions i del context.**
 
-Aquest prototip només inclou la definició funcional mínima per establir el sistema:
+## 2. Alfabet simbòlic i camps de referència
 
-∞ → camp obert, potencial
+Oraclia utilitza 21 unitats simbòliques representades amb Unicode:
 
-† → punt de referència / orientació
+| Símbol | Camp | Codi Unicode |
+|---|---|---|
+| ∞ | Camp obert, potencial | U+221E |
+| † | Punt de referència / orientació | U+2020 |
+| ◉ | Focus | U+25C9 |
+| ⇡ | Ascens / progrés | U+21E1 |
+| ▭ | Límit | U+25AD |
+| ○ | Pausa | U+25CB |
+| → | Direcció | U+2192 |
+| 〰 | Cicle | U+3030 |
+| ✧ | Activació | U+2727 |
+| ? | Indeterminació | U+003F |
+| ⊘ | Interrupció | U+2298 |
+| ☲ | Contrast | U+2632 |
+| ∆ | Canvi | U+2206 |
+| ÷ | Tancament | U+00F7 |
+| ≈ | Ajust | U+2248 |
+| ✛ | Material / concret | U+271B |
+| ⇤ | Retirada | U+21E4 |
+| ≋ | Retorn | U+224B |
+| () | Dada literal | U+0028 + U+0029 |
+| Y | Bifurcació | U+0059 |
+| ≡ | Síntesi | U+2261 |
 
-◉ → focus
+La unitat `()` està formada per dos caràcters Unicode, però constitueix una sola unitat simbòlica d’Oraclia.
 
-≋ → retorn
+Aquests camps orienten la lectura de cada símbol; el significat concret emergeix de les seves relacions i del context.
 
-✧ → activació
+L’alfabet és estable, però el comportament dels símbols és relacional i contextual.
 
-▭ → límit
+Un mateix símbol pot participar en configuracions diferents segons:
 
-☲ → contrast
+- Els altres símbols actius.
+- Les relacions entre ells.
+- L’ordre i la disposició.
+- La forma que produeixen.
+- La trajectòria.
+- El context concret de lectura.
 
-✛ → material / concret
+El context no converteix els símbols en elements arbitraris: la lectura ha de mantenir una relació recognoscible amb els seus nuclis de moviment.
 
-∆ → canvi
+## 3. Relació, forma i transformació
 
-≈ → ajust
+La unitat principal de lectura és la configuració de símbols i les relacions que s’hi produeixen.
 
-⇡ → ascens / progrés
+Oraclia observa:
 
-→ → direcció
+- Quins camps simbòlics estan actius.
+- Com es relacionen.
+- Quina forma produeixen.
+- Què es manté.
+- Què apareix.
+- Què desapareix.
+- Què es transforma al llarg del temps.
 
-⊘ → interrupció
+Una configuració no s’ha de reduir necessàriament a un únic símbol. Una mateixa constel·lació pot produir formes diferents segons les relacions i la disposició.
 
-Y → bifurcació
+Un patró no és simplement una repetició d’elements: és una forma de transformació que reapareix.
 
-≡ → síntesi
+Aquestes relacions es poden desplegar en formes d’expressió diferents: una explicació, una pregunta, una escena, un diàleg o una imatge. Cada forma pot fer visibles aspectes diferents del moviment explorat.
 
-⇤ → retirada
+## 4. Indeterminació
 
-() → dada literal
+Oraclia no ha de forçar una lectura quan no hi ha prou estructura per sostenir-la.
 
-〰 → cicle
+Si una configuració només es pot justificar afegint supòsits sense suport en el context, el sistema pot mantenir-la com a no resolta.
 
-? → indeterminació
+Aquesta indeterminació no significa que no hi hagi pes, relació, moviment o significació. Significa que encara no hi ha prou diferenciació per construir una lectura fonamentada.
 
-÷ → tancament
+**Millor no saber que deformar.**
 
-○ → pausa
+## 5. Relació amb la persona
 
-Aquestes definicions són suficients per identificar les funcions del sistema sense desplegar el model complet.
+La lectura que Oraclia proposa és situada, provisional i revisable.
 
-3. Arquitectura formal del llenguatge
+Els símbols no representen identitats, diagnòstics ni estats psicològics fixos.
 
-Sistema tancat: només 21 símbols estables.
+Oraclia no defineix la persona, no substitueix la seva decisió ni converteix una lectura provisional en una identitat permanent.
 
-Funcions definides: cada símbol opera com a estat o transició.
+La persona sempre pot corregir o desmentir la lectura. Quan això passa, Oraclia revisa la seva proposta.
 
-Combinació limitada: les seqüències descriuen moviment, no significat.
+Una trajectòria recurrent no equival a afirmar «aquesta persona és així».
 
-Neutralitat interpretativa: el llenguatge no fa prediccions ni lectures personals.
+**La persona conserva el criteri.**
 
-Interoperabilitat: els símbols són Unicode, processables per humans i IA.
+## 6. Àmbit d’ús
 
-Aquesta estructura permet utilitzar Oraclia per representar processos en àmbits personals, organitzatius o computacionals.
+Oraclia es pot utilitzar per explorar i representar:
 
-4. Àmbit d’ús
-
-El sistema pot utilitzar-se per:
-
-descriure fases d’un procés
-
-identificar transicions estructurals
-
-representar moviments interns d’una situació
-
-facilitar lectura i comunicació entre persones i sistemes d’IA
+- Fases i transicions d’un procés.
+- Relacions i canvis de configuració.
+- Trajectòries i recurrències.
+- Moviments dins d’una conversa o situació.
+- Estructures personals, organitzatives o computacionals.
+- Relacions que es volen comunicar entre persones i sistemes d’IA.
 
 No s’utilitza per:
 
-diagnòstics
+- Fer diagnòstics.
+- Predir el futur.
+- Atribuir essències personals.
+- Substituir decisions humanes.
+- Presentar interpretacions psicològiques, espirituals o esotèriques com si fossin veritats.
 
-prediccions
+## 7. Estat del prototip
 
-interpretacions emocionals
+Oraclia està en desenvolupament.
 
-contingut esotèric
+El sistema explora una gramàtica relacional basada en un alfabet estable, nuclis de moviment, formes, dinàmiques i transformacions.
 
-5. Estat del prototip
-
-Aquest document constitueix el prototip mínim verificable del sistema Oraclia.
-La seva publicació estableix precedència i autoria del model conceptual
+Aquest document proposa una formulació conjunta dels nuclis català i castellà. No constitueix una teoria definitiva ni una gramàtica tancada.
